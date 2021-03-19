@@ -1,5 +1,7 @@
 #!/bin/bash
 
+jupyter notebook --generate-config
+
 sudo cp aws-notebook-environment-setup/jupyter_notebook_config.py  /home/ubuntu/.jupyter/
 
 sudo cp aws-notebook-environment-setup/jupyter_app.conf /etc/nginx/sites-available/
