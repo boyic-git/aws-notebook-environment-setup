@@ -9,5 +9,5 @@ c.NotebookApp.allow_origin = '*' # put your public IP Address here
 c.NotebookApp.ip = '*'
 c.NotebookApp.allow_remote_access = True
 c.NotebookApp.open_browser = False
-c.NotebookApp.password = u'argon2:$argon2id$v=19$m=10240,t=10,p=8$1188xGgDIDs49qtL/Hh/Cg$su7QTqBgJSHfkJ5XpTmmiw'
+c.NotebookApp.password = u'sha1:e88a9dff7217:0940fa5a27188cdc25a56e06cd0dae4d2bc4b171'
 c.NotebookApp.port = 8888
