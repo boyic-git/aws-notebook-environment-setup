@@ -1,12 +1,14 @@
 #!/bin/bash
 
-pip3 install kaggle==1.5.6 --user
+source activate pytorch_latest_p37
 
-pip3 install wandb --user
+pip3 install kaggle==1.5.6
 
-sudo ln -s ~/.local/bin/kaggle /usr/bin/kaggle
+pip3 install wandb
 
-sudo ln -s ~/.local/bin/wandb /usr/bin/wandb
+ipython kernel install --name "p37" --user
+
+source deactivate
 
 jupyter notebook --generate-config
 
